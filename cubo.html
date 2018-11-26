@@ -1,0 +1,74 @@
+<html>
+    
+    <head>
+        <meta charset="utf-8"/>
+        <title>cubo PAGE</title>
+        <link rel="stylesheet" href="main.css">
+        <style>
+            body
+            {
+                background-color:951357;
+                
+            }
+            .p2
+            {
+                color:red;
+                text-align:left;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .btn
+            {
+                color:blue;
+                display: inline;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>MSA School</h1>
+           <h3 class="f">Phone : 0123456789<br>088998822</h3>
+           <h3 calss="f">email: msaschool@gmail.com</h3>
+           <h3>Title : Cairo City</h3>
+        </header>
+        
+        <h1>Welcome To Your Training</h1>
+        <h2>Welcome To Cubo Page</h2>
+        <p><b> First you will calculate the Area after that you will calculate Perimeter
+            finally calculate the Volume</b></p>
+            <table class="p2">
+                <tr>
+                    <td>Area :</td>
+                    <td> Length*length*6</td>
+                </tr>
+                 <tr>
+                    <td>Perimeter:</td>
+                    <td> 12*Length</td>
+                </tr>
+                <tr>
+                    <td>  Volume  :</td>
+                    <td>Length*Length*Length</td>
+                </tr>
+                
+            </table>
+
+        <img src="cubo.png" width="400px" height="400px" >
+        <br>
+        <input type="button" name="start" value="Start" onclick="cubo()"><br><br>
+        <div id="out_div"></div>
+        <label>Input Area value :  <input type="text" name="area" id="area" placeholder="Area"> </label>
+        <label>Input Perimeter value :  <input type="text" name="Perimeter" id="Perimeter" placeholder="Perimeter" > </label>
+        <label>Input Volum value :  <input type="text" name="Volum" id="Volum" placeholder="Volum" > </label><br><br>
+        <input type="button" value="Submit" onclick="cal_cubo()">
+        <div id="result" class="p2"></div>
+        <a href="second.html"><input type="button" value="GO To Main Page" class="btn"></a>
+        <a href="cono.html"><input type="button" value="Go To Next Page" class="btn"></a>
+        
+         <footer>
+        <h2 calss="c2">Our School Is The Best</h2>
+        <br>
+        <br><br>
+    </footer>
+    <script src="shap.js"></script>
+    </body>
+</html>
